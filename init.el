@@ -17,10 +17,6 @@ There are two things you can do about this warning:
     (add-to-list 'package-archives (cons "gnu" (concat proto "://elpa.gnu.org/packages/")))))
 (package-initialize)
 
-(menu-bar-mode -1)
-(tool-bar-mode -1)
-(scroll-bar-mode -1)
-
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -42,11 +38,21 @@ There are two things you can do about this warning:
  ;; If there is more than one, they won't work right.
  )
 
-;;(set-face-foreground 'font-lock-string-face "#bababa")
+;; clean views
+(menu-bar-mode -1)
+(tool-bar-mode -1)
+(scroll-bar-mode -1)
+
+;; (setq default-frame-alist '((left . 50) (width . 150) (fullscreen . fullheight)))
+
+;; maximize and minimize text with text-scale-adjust
+(set-face-attribute 'default nil :height 150) ;; init font size
+;; `list-faces-display` list all faces, using the same text in each.
 (set-face-foreground 'font-lock-comment-face "gray")
-(set-face-foreground 'font-lock-string-face "yellow")
+(set-face-foreground 'font-lock-doc-face "gray")
 
-
+;; `load-file` load the lisp file named <file>.
+;; `eval-buffer` execute current buffer as lisp code.
 
 
 
