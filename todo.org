@@ -2,15 +2,15 @@
 
 ** DONE install elixir mode
 ** DONE install ruby mode
-** TODO config font, font-size, window init size, window init position
-** TODO review emacs tutorial
+** DONE config font, font-size, window init size, window init position
+** DONE review emacs tutorial
 ** TODO learn basic org hotkeys
 ** TODO learn basic dired mode
 ** TODO learn basic magit
 ** TODO learn basic config convention
 ** TODO learn basic lisp syntax
 
-
+* memo
 1 change comment color for elixir
 ref: https://www.gnu.org/software/emacs/manual/html_node/elisp/Faces-for-Font-Lock.html
 for elixir block comments color is hard to change, 
