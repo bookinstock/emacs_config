@@ -32,7 +32,7 @@ There are two things you can do about this warning:
  '(custom-safe-themes
    (quote
     ("274fa62b00d732d093fc3f120aca1b31a6bb484492f31081c1814a858e25c72e" default)))
- '(package-selected-packages (quote (dracula-theme magit))))
+ '(package-selected-packages (quote (elixir-mode dracula-theme magit))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
