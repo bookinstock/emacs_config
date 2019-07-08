@@ -1,0 +1,14 @@
+* todo list
+
+** TODO install elixir mode
+** TODO install ruby mode
+** TODO config font, font-size, window init size, window init position
+** TODO review emacs tutorial
+** TODO learn basic org hotkeys
+** TODO learn basic dired mode
+** TODO learn basic magit
+** TODO learn basic config convention
+** TODO learn basic lisp syntax
+
+
+
