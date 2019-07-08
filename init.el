@@ -28,7 +28,9 @@ There are two things you can do about this warning:
  ;; If there is more than one, they won't work right.
  '(ansi-color-faces-vector
    [default default default italic underline success warning error])
- '(custom-enabled-themes (quote (wombat)))
+ '(ansi-color-names-vector
+   ["#242424" "#e5786d" "#95e454" "#cae682" "#8ac6f2" "#333366" "#ccaa8f" "#f6f3e8"])
+ '(custom-enabled-themes (quote (dracula)))
  '(custom-safe-themes
    (quote
     ("274fa62b00d732d093fc3f120aca1b31a6bb484492f31081c1814a858e25c72e" default)))
@@ -40,7 +42,9 @@ There are two things you can do about this warning:
  ;; If there is more than one, they won't work right.
  )
 
-
+;;(set-face-foreground 'font-lock-string-face "#bababa")
+(set-face-foreground 'font-lock-comment-face "gray")
+(set-face-foreground 'font-lock-string-face "yellow")
 
 
 
