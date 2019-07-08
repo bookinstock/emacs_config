@@ -1,0 +1,28 @@
+
+
+* TODO 1
+
+** TODO 1.1
+
+** TODO 1.2
+
+*** TODO 1.2.1
+
+*** TODO 1.2.2
+
+* TODO 2
+xxxx
+* TODO 3
+
+
+
+
+* test
+
+
+
+S-M-RET insert a new todo item
+C-c / t view todo items in a sparse tree
+C-c a t -> show global todo list (agenda view)
+
+shift-
