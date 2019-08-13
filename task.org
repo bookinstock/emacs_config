@@ -1,0 +1,290 @@
+
+
+
+
+* TODO projectile
+
+project management
+
+project navigation
+
+default git version control
+
+specify with .projectile file
+
+** Commands
+
+- switch project -> p
+
+- find a file -> f
+
+- find a dir -> d
+
+- find a file in dir -> l
+
+- grep text -> s g
+
+- replace text -> r >>> ???
+
+- commander -> m
+
+** Tips
+
+- open in other windown -> 4
+
+- open in other frame -> 5
+
+- project dired
+
+toggle read-only mode
+
+kill buffers
+
+- grep in project -> s g
+
+find buffer -> b
+
+- find file -> f
+
+find file in dir -> l
+
+find dir -> d
+
+magit -> v
+
+grep in project
+
+replace in project
+
+find test >
+
+find files at point ??
+
+find file in a dir ?
+
+find recent files
+
+generate etags or gtags (requires ggtags)
+
+** others
+
+jump function
+
+multi cursor
+
+jump to next function call -> subl S-d
+
+* TODO dired mode
+* TODO paradox
+
+
+* memo
+
+C-h b -> describe-bindings
+C-h a -> apropos-command
+
+** dired
+
+function in mode -> dired
+
+hotkey -> M-x d -> dired
+
+hotkey -> M-x 4 d -> dired in new window
+
+default dir -> default-directory
+
+visit remote dir -> tramp
+
+n p -> next and previous
+
+^ -> .. directory
+
+g -> refresh buffer
+
+mark then do action
+
+m -> mark
+
+del -> undo mark
+
+u -> unmark
+
+U -> unmark all
+
+d -> mark delete
+
+t -> reverse mark
+
+% m -> regex mark
+
+% d -> regex mark delete
+
++ -> new dir
+
+* elixir
+
+** High order functions
+
+- fn(x, y) -> x + y end
+
+- &(&1 + &2)
+
+- &+/2
+
+** Enum
+
+- work with `Enumerable` protocal
+
+- &each, &map, &reduce, &filter
+
+- &count, &uniq, &sum, &sort, &memeber?, &join
+
+- &group_by
+
+** Comprehension
+
+- for x <- ["a", "b", "c"], do: String.upcase(x)
+
+- for x <- ["a", "b", "c"], y <- [1, 2, 3], do: {x, y}
+
+- for x <- [1, 2, 3, 4, 5], rem(x, 2) == 1, do: x
+
+** application
+
+- recursion
+
+- high-order function
+
+- anonymous function
+
+- entity -> struct
+
+- function polymorphism -> protocal
+
+- function contracts -> behaviour
+
+- command line interface -> mix
+
+  - create project
+
+  - compiling
+
+  - debugging
+
+  - testing 
+
+  - manage dependencies
+
+  - environment
+
+- ExUnit official documentationp
+
+  - use ExUnit.Case
+
+  - doctest
+
+- Mix.Task module
+
+- Mix.Shell.IO
+
+* Functional Programming
+
+** currying
+
+deplay function evaluation
+
+* principle
+
+
+* todos
+
+** TODO clean computer 
+
+** TODO buy new computer
+
+** TODO elixir functional programming
+
+** TODO elixir otp knownledge
+
+** TODO elixir guide
+
+** TODO emacs magit branch
+
+** TODO emacs projectile notes
+
+** DONE sql slower query
+
+** TODO jj booking audit
+
+*** TODO hotel rooms error show separately
+
+*** TODO show error detals
+
+*** TODO ean name problem
+
+*** TODO remove cancelled
+
+** TODO dist_logs
+
+* emacs
+
+goto-line
+
+* Stay Real
+** Year
+*** TODO 换工作
+*** TODO 女朋友
+*** TODO 日语
+*** TODO 英语
+*** TODO 表达
+*** DONE 锻炼
+** Routine
+*** DONE 06-** 刷牙洗脸
+*** DONE 07-08 日语学习
+*** DONE 08-09 锻炼-健身房
+*** TODO 20-21 锻炼-腹肌；表达
+*** TODO 22-23 英语学习
+*** TODO 23-** 刷牙洗脸；总结；计划
+** Day
+*** TODO 14-18 Elixir 见面会
+*** TODO 阅读 functional programming elixir
+*** TODO 回顾并做笔记 functional programming elixir
+*** TODO 去 Exercism.io 做练习
+*** TODO 寻找下一本 Elixir 学习的书籍
+*** TODO 制定一个阅读 Elixir 官方文档的计划
+*** TODO Elixir 官方文档阅读 Enum
+*** TODO Elxiir 官方文档阅读 Stream
+*** TODO 坚持使用 Emacs 作为编辑器
+*** TODO 制定学习 elisp 语法的计划
+*** TODO 制定日语学习计划
+*** TODO 日语单词n4 5关
+*** TODO 日语语法n5 按照计划
+*** TODO 英语语法这本书的计划
+*** TODO 孙双蕾 日语学习一周回顾
+*** TODO 爸爸妈妈 回去的车票
+*** TODO 和未来的女朋友联系下（如果有时间的话）
+*** TODO 制定Elixir找工作计划
+*** TODO 制定学习 WebServer原理的计划，收集资料
+*** TODO 结合年计划，制定月计划及周计划
+** Memo
+*** Event
+**** TODO 本周Elixir见面会
+**** TODO 周五回无锡的车票
+**** TODO 周末和陆文超见面
+**** TODO 7月底李超结婚
+**** TODO 8月底TI比赛
+**** TODO 8月底Ruby大会
+**** TODO 8月见叼博
+**** TODO 8月见成皓瑜
+**** TODO 8月见顾洁蕾
+**** TODO 清理电脑中的文件
+**** TODO 清理房间里的东西
+**** TODO 买一台电脑
+*** Learn
+**** TODO Elixir 官方文档
+**** TODO OPT 相关的概念学习
+**** TODO Phoenix 官方文档
+**** TODO Phoenix 源代码
+**** TODO Web服务器实现原理
+**** TODO Nginx 工作原理
+**** TODO 浏览器 工作原理

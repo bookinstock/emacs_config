@@ -1,1 +1,6 @@
+README.el
+backups/
 elpa/
+projectile-bookmarks.eld
+recentf
+smex-items

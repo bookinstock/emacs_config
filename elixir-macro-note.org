@@ -1,0 +1,180 @@
+* Elixir - Macro - Notes
+
+** Part 1 - the language of macros
+
+AST -> abstract syntax tree
+
+macro -> codes that write codes
+
+macro -> actually manipulate AST
+
+macro -> simple code, high performance
+
+macro -> you -> language consumer -> creator
+
+quote -> convert code to AST
+
+unquote -> undo quote in quote block
+
+defmacro -> input AST -> manipulate -> output AST
+
+Code.eval_quoted -> evaluate the AST result
+
+Code.eval_quoted can follow by bindings
+
+Macro.expand_once -> expand macro invoke
+
+hygiene protection -> variable scope separate
+
+var! -> use variable outside scope (not recommand)
+
+others: `__MODULE__` -> return current module name
+
+others: `<module>.__info__(:functions) -> return functions
+
+exercise: create `unless` macro with `if`
+
+exercise: create `unless` macro with `case` or `cond`
+
+exercise: create `unless` macro without use `quote`
+
+exercise: create `log` macro display 1 + 2 math process
+
+** Part 2 - extending elixir with metaprogramming
+
+custom language constructs - like defmodule, def, if, cond...
+
+exercise: create `while` loop function (with `break`)
+
+simulate infinite loop with Stream.cycle([:ok])
+
+simulate break with throw :break and catch :break
+
+smarter testing with elixir -> mini testing framework
+
+quote bind_quoted: [foo: foo, bar: bar], do: action
+
+assert pattern match math calculation AST
+
+extending module -> def func in macro -> manually call it
+
+common api for module extention -> use MODULE -> `__using__(opts)`
+
+using module attribute for code generation
+
+Module.register_attribute MODULE, :tests, accumulate: true
+
+default module attribute @tests (accumulate is false)
+
+compile-time hook -> @before_compile MODULE -> `__before_compile__(env)`
+
+other: :timer.sleep(4000)
+
+other: :erlang.time
+
+*** TODO without doing chapter exercies
+
+
+
+
+
+
+
+AST structure -> {atom | tuple, list, list | atom}
+
+5 special literals -> atom, number, list, string, 2-element tuple
+
+Macro.to_string(AST)
+
+Macro.escape
+
+unquote
+
+unquote_splicing
+
+
+
+quoting
+
+unquoting 
+
+escaping
+
+
+
+
+
+
+
+
+
+
+
+
+* Daily Review
+
+** 2019-07-17
+今天没去上班，在家呆了一天，上午看了会炼丹的元编程，效果不是很好，感觉要学的东西很多，想学的也很多，但是这样反而会导致目标不明确，不知道自己当下学的东西有没有用，其实想想，学肯定比不学强，但是有效率的学和低效率的学的差别还是很大的，低效率的学习首先体现在注意力不够集中，学完了没有总结，没有价值体现，不能结合自身，没有学习结果的反馈等等。所以学习的冲动只是一个开始，虽然他确实很重要（这是你的动力以及目的所在）但是如果没有计划的落实，我们很难将这种动力维持下去，无论是身边的诱惑，还是前进的阻碍，都会动摇我们一开始想要学习的心。于是我下午指定了一周和一天的计划，周计划就是列出我想要去提升的方面，并且列出所需的学习资料，如果还没有学习计划的，那要做的就是去制定学习计划；日计划就是要和时间关联起来，给自己紧迫感，达成了也会有成就感。总的来说几天的任务基本都完成了，除了练丹的起步和一些视频学习大了点折扣，基本都做了，至于明天的计划，我想还是留在明天早晨去制定吧（其实也是自己偷懒了哎~）那么今天就这样，坚持写总结，记日记，加油咯哦，变得更强！
+
+
+* NOTES
+
+关于学习一门新的知识：
+小的时候对新的东西我们都会充满好奇，想要去尝试
+长大了我们逐渐习惯于自己熟悉的东西，抵触新的东西
+这是为什么呢？心理学方面的解释可以研究一下哈
+不过这可能就是为什么小孩学的更快，
+所以我们要改变自己的心态，预先的想法
+从而养成尝鲜的心态，喜欢去接触，去接受新的事物和新的观点
+
+好的代码是能充分的自我表达
+Elixir 的文档是这个语言的一大特点
+不过在书写代码的开始就把详细的文档写了我觉得并不是一个好事
+可以再写代码之前先把 代码的框架性的文档写了
+最后在补全详细的文档
+
+内心毫无波动甚至还有点想笑
+（面对诱惑）
+
+* DONE elixir metaprogramming part 1
+
+* TODO learn search log diff ways
+
+* TODO take notes for elixir function programming bookigs
+
+* TODO 了解服务器的网络相关的知识 dns cdn ip 等等
+
+* TODO 关注 info q
+
+* DONE 早饭
+
+* DONE 中饭
+
+* TODO 晚饭
+
+* DONE 锻炼-腹肌
+
+* TODO 锻炼-肩膀
+
+* DONE Lunch break 15/15
+* TODO Clean notes
+
+* TODO memo
+
+** DONE read elixir macro part 1 - code injection and caller's context
+
+** DONE wash dishes
+
+** DONE elixir macro part 1 exercise
+
+** DONE elixir macro part 1 notes
+
+** TODO clean notes "Notes"
+
+** TODO clean notes "Dev"-"design"
+
+** TODO elixir macro part 2 - custome language constructs
+
+** TODO elixir macro part 2 - smart testing with macros
+
+** TODO booking audit

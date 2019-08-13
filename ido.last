@@ -1,0 +1,116 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/Users/wendelu/.emacs.d/foo/foo/" . "lib/")
+ ("/Users/wendelu/.emacs.d/foo/" . "foo/")
+ ("/Users/wendelu/.emacs.d/" . "foo/")
+ ("/Users/wendelu/.emacs.d/elixir/dungeon_crawl/lib/mix/" . "tasks/")
+ ("/Users/wendelu/.emacs.d/elixir/dungeon_crawl/lib/" . "mix/")
+ ("/Users/wendelu/.emacs.d/elixir/" . "dungeon_crawl/")
+ ("/Users/wendelu/Workspace/elixir/foo/animals/" . "lib/")
+ ("/Users/wendelu/Workspace/elixir/foo/" . "animals/")
+ ("/Users/wendelu/Workspace/elixir/" . "foo/")
+ ("/Users/" . "wendelu/")
+ ("/" . "Users/")
+ ("/Users/wendelu/Workspace/uniqueway-workspace/" . "dist/")
+ ("/Users/wendelu/Workspace/" . "elixir/")
+ ("/Users/wendelu/" . ".emacs.d/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/Users/wendelu/.emacs.d/"
+ "/Users/wendelu/.emacs.d/foo/"
+ "/Users/wendelu/.emacs.d/foo/foo/lib/"
+ "/Users/wendelu/.emacs.d/elixir/dungeon_crawl/lib/mix/tasks/"
+ "/Users/wendelu/.emacs.d/elixir/dungeon_crawl/lib/dungeon_crawl/cli/"
+ "/Users/wendelu/.emacs.d/elixir/dungeon_crawl/lib/dungeon_crawl/"
+ "/Users/wendelu/.emacs.d/elixir/dungeon_crawl/lib/"
+ "/Users/wendelu/.emacs.d/elixir/dungeon_crawl/"
+ "/Users/wendelu/Workspace/elixir/foo/animals/lib/"
+ "/Users/wendelu/emacs.d/"
+ "/Users/wendelu/Workspace/uniqueway-workspace/cure/app/services/booking_audits/verification/"
+ "/Users/wendelu/Workspace/uniqueway-workspace/dist/"
+ "/Users/wendelu/Workspace/uniqueway-workspace/cure/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "init.el"
+ "foo.ex"
+ "elixir-macro-note.org"
+ "start.ex"
+ "main.ex"
+ "heroes.ex"
+ "character.ex"
+ "README.md"
+ "task.org"
+ "animals.ex"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/Users/wendelu/.emacs.d/" (23854 26938 941270 108000) "b" "c" "task.org~" ".git/" "elpa/" "test.org" "foo/" ".gitignore" "init.el" "url/" "auto-save-list/" "a" "projectile.cache" "todo.org" "transient/" "projectile-bookmarks.eld" "task.org" "elixir/" "elixir-ls/" "ido.last" "elixir-macro-note.org" "../" "./")
+
+ ("/Users/wendelu/" (23854 26915 272422 499000) ".dialyzer_plt" ".composer/" ".gitbook/" ".byebug_save" ".guard_history" ".vimrc.tmp" ".conda/" "nohup.out" ".vimrc.golf" ".zlogin" ".appletviewer" ".zcompdump-Wendes-MacBook-Pro-5.3" ".profile~" ".viminfo" ".bash_history" "todo-psql/" "todo-folder-1/" ".mongorc.js" ".vimrc.wende" ".PyCharm40/" ".gitconfig" ".cache/" ".continuum/" ".python_history" "Downloads/" ".rediscli_history" ".oh-my-zsh/" ".pm2/" ".gem/" ".pry_history" ".bash_profile" ".m2/" ".vscode/" ".astah/" ".mysql_history" ".linner/" ".vimbackup/" ".babel.json" ".vimrc.before" "Documents/" ".exercism.json" ".npm/" ".scala_history" ".swo" ".zcompdump" ".vimperator/" ".pryrc" ".gitflow_export" "doc/" ".Trash/" ".coffee_history" "chromedriver_mac32.zip" "Dropbox/" ".zsh-update" ".gradle/" ".profile" ".dbshell" "Applications/" ".vimrc" ".vimviews/" "Movies/" ".passenger/" ".ssh/" ".rustup/" ".pip/" ".dbeaver-drivers/" ".sh_history" ".freerdp/" "logfile" ".codeintel/" ".idlerc/" ".zshenv" "News/" ".genymotion-eclipse.log" ".byebug_hist" ".zcompdump-Wende’s MacBook Pro-5.0.8" ".dropbox/" "Public/" "PycharmProjects/" "todo-ruby-metaprogramming/" "todo-xiaoming/" ".sqlite_history" "Google Drive/" ".bash_sessions/" "Sites/" ".gitignore_global" "Project/" ".pry.d/" ".android/" ".cargo/" ".node_repl_history" ".emacs.d/" ".ShadowsocksX-NG/" ".git-completion.bash" ".oracle_jre_usage/" "bashrc" ".erlang.cookie" ".openvr/" ".lesshst" ".mkshrc" ".vimrc.basic" ".matplotlib/" ".irb-history" "Library/" "Desktop/" ".ipython/" ".zsh_history" "Postman/" ".rnd" ".bundle/" ".nvm/" ".zprofile" ".mysql_secret" ".atom/" "emacs.d.self/" ".notes" "Workspace/" ".multirust/" ".scalac/" "Pictures/" ".psql_history" ".irbrc" ".local/" ".cheat/" ".skylight" ".mix/" ".elm/" ".vue-templates/" ".swp" "emacs.d.space/" ".adobe/" "org/" ".zshrc" ".zshrc.pre-oh-my-zsh" ".bashrc" ".spf13-vim-3/" ".subversion/" ".netrc" ".op/" ".vimswap/" ".rbenv/" ".bash_profile.save" ".rake/" ".pow/" ".sogouinput/" "bin/" ".hgignore_global" ".stCommitMsg" ".CFUserTextEncoding" ".yarnrc" "dump.rdb" "VirtualBox VMs/" ".v8flags.4.5.103.33.wendelu.json" ".zshrc~" ".gnupg/" ".twitter_oauth" ".vuerc" ".DS_Store" ".php_history" ".Genymobile/" ".vim.20151218_1450424995/" ".vim/" "Information/" "#.newsrc-dribble#" ".rspec" ".heroku/" ".docker/" ".gemrc" ".clojure/" ".jump/" "Developer/" ".vimundo/" ".v8flags.6.1.534.50.1c2267a9851fb6ba7b4fc49217fd1208.json" ".Minimap.swp" ".bash_profile-anaconda.bak" ".vimrc.sun" ".zcompdump-Wende’s MacBook Pro-5.3" "Music/" ".config/" ".hex/" ".vue-cli-ui/" ".eclipse/" ".dbeaver4/" ".vimrc.bundles" "../" "./")
+
+ ("/Users/wendelu/.emacs.d/foo/" (23854 25059 663359 142000) "new_file" "dir1/" "a1" "foo/" "foo.ex" "new_file_2" "a2" "x3.gz" "xx2" "../" "./")
+
+ ("/Users/wendelu/.emacs.d/foo/foo/lib/" (23853 63132 422434 645000) "foo.ex" "../" "./")
+
+ ("/Users/wendelu/Workspace/uniqueway-workspace/cure/" (23853 38324 73777 902000) "vendor/" "tmp/" "data/" ".git/" ".eslintignore" "Procfile" "docker-compose.yml" "Gemfile.lock" "log/" ".rubocop.yml" "Gemfile" "db/" "lib/" "Vagrantfile" "Jenkinsfile" "scripts/" ".env" "package.json" "package-lock.json" ".gitignore" "public/" ".dockerignore" "components/" "Rakefile" "README.md" "TAGS" "fooo.rb" "deprecations.yml" "spec/" ".byebug_history" "node_modules/" "config.ru" "sample.env" "Dockerfile" ".simplecov" "config/" "bin/" ".ruby-version" "app/" ".ruby-gemset" ".DS_Store" "docker-images/" "codecov.yml" "Guardfile" ".pronto.yml" ".babelrc" "foo.rb" "../" "./")
+
+ ("/Users/wendelu/Workspace/uniqueway-workspace/dist/" (23852 13453 850647 684000) "coverage/" "tmp/" ".git/" "Procfile" "docker-compose.yml" "Gemfile.lock" "log/" ".rubocop.yml" "Gemfile" "db/" "lib/" "Jenkinsfile" "scripts/" ".env" ".gitignore" "public/" ".dockerignore" "Rakefile" "README.md" "TAGS" ".env.dup" "spec/" ".byebug_history" ".bundle/" "config.ru" "sample.env" "Dockerfile" "config/" "bin/" ".ruby-version" "app/" ".ruby-gemset" ".DS_Store" "docker-images/" "codecov.yml" "Guardfile" ".pronto.yml" "foo.rb" "../" "./")
+
+ ("/Users/wendelu/Workspace/uniqueway-workspace/cure/app/services/booking_audits/verification/" (23853 42654 444668 83000) "service.rb" "flight.rb" "hotels/" "hotel.rb" "flights/" "../" "./")
+
+ ("/Users/wendelu/.emacs.d/foo/foo/" (23852 1723 146831 678000) ".formatter.exs" "lib/" "_build/" ".gitignore" "README.md" "test/" "mix.exs" "../" "./")
+
+ ("/Users/wendelu/.emacs.d/elixir/dungeon_crawl/lib/mix/tasks/" (23850 45428 470807 543000) "start.ex" "../" "./")
+
+ ("/Users/wendelu/.emacs.d/elixir/dungeon_crawl/lib/dungeon_crawl/cli/" (23850 45335 748601 434000) "main.ex" "../" "./")
+
+ ("/Users/wendelu/.emacs.d/elixir/dungeon_crawl/lib/dungeon_crawl/" (23850 45082 919170 686000) "character.ex" "heroes.ex" "cli/" "../" "./")
+
+ ("/Users/wendelu/.emacs.d/elixir/dungeon_crawl/lib/" (23850 43710 594466 340000) "dungeon_crawl/" "mix/" "dungeon_crawl.ex" "../" "./")
+
+ ("/Users/wendelu/.emacs.d/elixir/dungeon_crawl/" (23850 43557 495113 868000) ".git/" ".formatter.exs" "lib/" "_build/" ".gitignore" "README.md" "test/" "mix.exs" "../" "./")
+
+ ("/Users/wendelu/.emacs.d/elixir/dungeon_crawl/lib/mix/" (23850 43206 383496 425000) "tasks/" "../" "./")
+
+ ("/Users/wendelu/.emacs.d/elixir/" (23850 40826 839235 12000) "dungeon_crawl/" "test/" "../" "./")
+
+ ("/Users/wendelu/.emacs.d/elixir/test/" (23849 62696 346868 505000) ".formatter.exs" "lib/" "_build/" ".gitignore" "README.md" "test/" "mix.exs" "../" "./")
+
+ ("/Users/wendelu/.emacs.d/elixir/test/lib/" (23850 34823 376421 979000) "test.ex" "../" "./")
+
+ ("/Users/wendelu/Workspace/elixir/foo/animals/lib/" (23847 20491 570136 716000) "animals.ex" "animals.ex~" "../" "./")
+
+ ("/Users/wendelu/Workspace/elixir/foo/animals/" (23763 30664 942516 211000) ".formatter.exs" "doc/" "deps/" "lib/" "_build/" ".gitignore" "README.md" "mix.lock" "config/" "test/" ".DS_Store" "xxxx" "mix.exs" "../" "./")
+
+ ("/Users/wendelu/Workspace/elixir/foo/" (23763 30656 108274 792000) "learn-elixir/" "animals/" "test_1/" ".DS_Store" "../" "./")
+
+ ("/Users/wendelu/Workspace/elixir/" (23762 20290 262393 560000) "hello/" "foo/" "notes/" "phx/" "mipha/" ".DS_Store" "materials/" "toy/" "../" "./")
+
+ ("/Users/" (23477 36072 520065 303000) "wendelu/" "Guest/" "Shared/" ".localized" "../" "./")
+
+ ("/Users/wendelu/emacs.d/" (23568 36841 458757 90000) "ditaa0_9.jar" ".smex-items" "magithub/" ".travis.yml" ".git/" ".session" ".historian" "elpa-26.1/" "recentf" ".agignore" "site-lisp/" "plantuml.jar" "history" "test-startup.sh" ".gitignore" "org-clock-save.el" "README.md" "init.el" "url/" ".emacs.desktop" "auto-save-list/" ".uptimes.el" "var/" "custom.el" "projectile.cache" "projectile-bookmarks.eld" "LICENSE" ".mc-lists.el" "lisp/" ".dir-locals.el" "../" "./")
+
+ ("/Users/wendelu/Workspace/uniqueway-workspace/cure/app/services/booking_audits/verification/hotels/" (23846 48895 609403 252000) ".#version_similan_order.rb" "version_similan_order.rb" "version_budget.rb" "version_booking.rb" "../" "./")
+
+ ("/Users/wendelu/Workspace/uniqueway-workspace/cure/app/services/" (23845 44134 137527 624000) "concerns/" "guidebook_planner_dispatch_service.rb" "create_plan_service.rb" "event_service.rb" "trains/" "message_distribute_service.rb" "plan_comment_service.rb" "clone_dist_budget_service.rb" "verify_expedia_rooms_service.rb" "similar_schedule_service.rb" "booking_audit/" "expedia_service.rb" "build_poi_query_service.rb" "system_notifications/" "clone_unified_plan_service.rb" "auto_booking/" "haoqiao_service.rb" "booking_assign_service.rb" "users/" "forbid_poi_service.rb" "dida_travel_service.rb" "init_guidebook_service.rb" "advisor_scoped_plan_query_service.rb" "plan_import.rb" "booking_audits/" "budget_self_creating_service.rb" "planner_dispatch_service.rb" "permission_service.rb" "price_check_form_status_service.rb" "advisor_dispatch_service.rb" "poi_attr_service.rb" "booking_attr_service.rb" "html2pdf_generator_service.rb" "beta_guidebook_check_service.rb" "flight_query_service.rb" "plan_reversion_service.rb" "base_service.rb" "plan_service.rb" "booking_orders/" "plan_meta_service.rb" "hotel_replacement_service.rb" "create_accomplishment_service.rb" "confirm_full_receive_service.rb" "user_service.rb" "price_check_form_service.rb" "prevention_rules/" "merge_user_fellows_service.rb" "unihotel_service.rb" "message_distribute_filter_service.rb" "similan/" "contracts/" "car_rental_service.rb" "qpx_express_service.rb" "payment/" "booking/" "price_check_form_priority_calc_service.rb" "import_poi_service.rb" "unihotel_poi_service.rb" "bookings/" "unified_plan_operate_service.rb" "customer_service/" "simple_message_distribute_service.rb" "messenger_service.rb" "pdf_generator_service.rb" "merge_plan_user_service.rb" "planner_scoped_plan_query_service.rb" "flight_aware_search_service.rb" "create_plan_event_service.rb" "verification_service.rb" "operation/" "accounting/" "../" "./")
+
+ ("/Users/wendelu/Workspace/uniqueway-workspace/cure/app/services/booking_audits/" (23845 44134 134644 124000) "generation/" "scanner/" "verification/" "plan_change_service.rb" "../" "./")
+
+ ("/Users/wendelu/Workspace/uniqueway-workspace/cure/app/" (23824 18687 14883 902000) "inputs/" "services/" "helpers/" "listeners/" "assets/" "views/" "controllers/" "events/" "jobs/" "validators/" "publishers/" "serializers/" "policies/" "models/" "utils/" "checklists/" "decorators/" "mailers/" "excels/" "uploaders/" "../" "./")
+
+ ("/Users/wendelu/Workspace/uniqueway-workspace/cure/app/models/" (23846 33641 252901 540000) "wedding_contract.rb" "booking_orderer.rb" "user_relationship.rb" "plan_event.rb" "place.rb" "actual_payment.rb" "user.rb" "plan.rb" "concerns/" "expense.rb" "guidebook_page.rb" "customer/" "wifi.rb" "distributor.rb" "pois/" "plan_meta.rb" "income.rb" "accomplishment_point/" "planner_dispatch_log.rb" "accomplishment/" "pingpp_handler/" "planner_dispatch_service_record.rb" "planner_profile.rb" "city.rb" "plan_review.rb" "poi_relationship.rb" "service_provider.rb" "scenario_desc_field.rb" "checklist.rb" "flight_slice.rb" "plan_poi.rb" "choice_plan.rb" "tidy_schedule.rb" "global.rb" "dist_stat_log.rb" "accomplishment_point.rb" "dist_opened_log.rb" "plan_requirement.rb" "province.rb" "permission.rb" "booking_audit/" "comment.rb" "virtus_exts/" "reimburse.rb" "google_place.rb" "gen_plan.rb" "staff.rb" "travel_tailor.rb" "choice_plan_poi.rb" "advisor_todo_item.rb" "destination.rb" "guidebook.rb" "sales_script.rb" "advisor_dispatch_log.rb" "skyscanner.rb" "unified_plan_version.rb" "insurance.rb" "booking.rb" "plan_utm_option_relation.rb" "active_remote/" "booking_user.rb" "plan_attachement.rb" "remote_model/" "guidebook_country_tip.rb" "budget_log.rb" "service_stage.rb" "app_guidebook_config.rb" "budget.rb" "personal_desc_structure.rb" "unified_plans/" "region.rb" "advisor_profile.rb" "city_wifi.rb" "poi_place.rb" "flight_trip_option.rb" "supplier/" "guidebook_page_section_poi.rb" "data_recommend_plan.rb" "role.rb" "todo_list.rb" "guidebook_page_section.rb" "country_visa.rb" "tidy/" "ean_order.rb" "guidebook_checklist.rb" "operation.rb" "cost_category.rb" "customer_demand.rb" "poi_calendar.rb" "pingpp_webhook.rb" "country_tip.rb" "message.rb" "compensation.rb" "budget_user.rb" "message_distribution.rb" "customer_service.rb" "guidebook_page_content.rb" "supplier_profit_rate.rb" "country.rb" "plan_handover_form.rb" "role_assignment.rb" ".#unified_plan.rb" "accomplishment.rb" "transfer.rb" "google_map_redis.rb" "schedule_place.rb" "plan_time_info.rb" "poi_attachement.rb" "pass_ticket.rb" "settings.rb" "personal_desc_field.rb" "booking_assignment_rule.rb" "unified_plan.rb" "guidebook_page_route.rb" "user_demand.rb" "booking_option.rb" "sample.rb" "user_schedule_rate.rb" "resources.rb" "discount.rb" "prevention_todo.rb" "plan_version.rb" "prevention_rules/" "guidebook_page_section_image.rb" "plan_transition.rb" "laravel_event.rb" "api_link_manage.rb" "plan_utm_option.rb" "plan_state_transition_log.rb" "booking_order.rb" "api_link.rb" "scenario.rb" "todo_item.rb" "poi_price.rb" "poi.rb" "issue.rb" "currency.rb" "shallow_plan.rb" "plans/" "scenario_attr.rb" "tidy.rb" "poi_options/" "staff_profile.rb" "recommend_plan.rb" "bookings/" "booking_audit.rb" "todo.rb" "job_handover_mail.rb" "user_fellow_review.rb" "schedule.rb" "session_log.rb" "similan_order.rb" "customer_service/" "visa.rb" "plan_user_fellow.rb" "unified_plan_audit.rb" "wifi_address.rb" "rooms_structure.rb" "cost.rb" "schedule_poi.rb" "planner_profiles/" "check_unified_plan_todo.rb" "plan_user.rb" "advisor_todo_list.rb" "poi_option.rb" "planner_dispatch_logs/" "tag.rb" "expect_payment.rb" "tidy_part.rb" "personal_desc_content.rb" "plan_travel_info_survey.rb" "department.rb" "user_plan_rate.rb" "prevention_rule.rb" "choice_plan_poi_tip.rb" "schematic.rb" "plan_image.rb" "user_structure.rb" "area.rb" "booking_form_field.rb" "plan_compensations.rb" "unihotel.rb" "operation/" "accounting/" "refund.rb" "image.rb" "province_visa.rb" "../" "./")
+
+ ("/Users/wendelu/Workspace/uniqueway-workspace/" (23800 37878 526294 887000) "smile/" "ruby/" "etl-scripts/" "testapp_a/" "Dist系统存在的问题.md" "play/" "piwik/" "unicrm_backend/" "pry/" "20180515事故.md" "similan_backend/" "p1.jpg" "cure/" "piwik-ruby-api/" "flight_info/" "requirements/" "document/" "fooooo/" "traveler-api/" "erlang/" "rust/" "testapp_b/" "unicrm/" "testvue/" "Dist核价项结构.md" "unicrm_20180106.sql" "dist/" "distapi/" "fooo/" "travue/" "test/" ".DS_Store" "index.html" "coderplanets_server/" "paper_trail-8.0.1/" "untitled folder/" "../" "./")
+
+ ("/Users/wendelu/Workspace/" (23741 39038 293031 122000) "xxxx.csv" "openbilibili/" "elasticsearch/" "uniqueway-workspace/" "rails-handbook/" "elixir-getting-started/" "code-school-try-elixir.pdf" "accounts.json" "rails-workspace/" "gems-workspace/" "test-config/" "elixir_test/" "learn-elixir/" "subl-projects/" "cloud-admin/" "foo/" "graphql/" "http_server/" "test-cap/" "tcp/" "mongodb-osx-x86_64-3.6.5/" "testcap/" "javascript-tutorial-en/" "cloud-admin-website/" "elixir-getting-started.zip" "xiaoming/" "webpack/" "ruby_test/" "play-workspace/" "learn-vue/" "emacs/" "rspec-test/" "html/" "elm/" "element/" "erlang/" "eggmantv/" "l108a8f4a677bc1ea6b78352fe8ca626e-s1476366124365601138-ma4b56b1e627cfdc2687a1c025f7b38a0.key" "guangjia/" "js/" "play-simba/" "elixir/" "css/" "git-workspace/" "play-emacs/" "code-school-try-elixir.zip" "test/" "fdb-service/" ".DS_Store" "409b377927572e23.csv" "learn-emacs/" "deploy-workspace/" "simba/" "h5-project/" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
